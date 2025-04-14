@@ -1,0 +1,92 @@
+.user-dashboard {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logout-button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #b71c1c;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-table th,
+.task-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.task-table th {
+  background-color: #2f80ed;
+  color: white;
+  font-weight: 600;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.complete-btn {
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.complete-btn:hover {
+  background-color: #2e7d32;
+}
+
+.status.completed {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #e65100;
+  font-weight: bold;
+}
+.greeting {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.username-highlight {
+  color: #007bff; /* Theme blue */
+  font-weight: bold;
+}
+.para{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
