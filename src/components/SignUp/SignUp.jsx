@@ -79,6 +79,8 @@ const SignUp = () => {
   };
 
   return (
+    <>
+    <h1 className="page-title">Taskify</h1>
     <div className="signup-container">
       <h2>{login ? "Login" : "Sign Up"}</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -130,6 +132,7 @@ const SignUp = () => {
       </form>
       <ToastContainer position="top-right" autoClose={3000} />
     </div>
+    </>
   );
 };
 

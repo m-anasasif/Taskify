@@ -1,6 +1,6 @@
 .signup-container {
     max-width: 400px;
-    margin: 100px auto;
+    margin: 40px auto;
     padding: 10px;
     background: #fff;
     border-radius: 8px;
@@ -63,4 +63,11 @@ button:hover {
 }
 .switch-form span:hover{
     cursor: pointer;
+}
+.page-title{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: #044090;
 }
